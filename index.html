@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <form>
+    <!-- text for name -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+        </div>
+    <!-- dropdown for food -->
+        <select name="food" id="food">
+          <option>pasta</option>
+          <option>ice cream</option>
+          <option>sushi</option>
+        </select>
+    <!-- calendar for birth date -->
+        <div class="form-group">
+          <label for="date">Birthday</label>
+          <input type="date" id="date">
+        </div>
+    <!-- color for color -->
+        <div class="form-group">
+          <label for="color">Color</label>
+          <input type="color" id="color">
+        </div>
+    <!-- radio for programming language -->
+        <div class="radio">
+          <label>
+            <input type="radio" name="language">Python
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language">Ruby
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="language">JavaScript
+          </label>
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
